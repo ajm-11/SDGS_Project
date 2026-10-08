@@ -1,0 +1,20 @@
+{
+    "rules": [
+        {
+            "name": "Clean Temporary Files",
+            "ext": ".tmp",
+            "action": "Quarantine"
+        },
+        {
+            "name": "Archive Old Logs",
+            "ext": ".log",
+            "action": "Archive"
+        }
+    ],
+    "monitored_folders": [],
+    "protected_files": [],
+    "settings": {
+        "auto_scan": true,
+        "scan_interval_days": 15
+    }
+}
