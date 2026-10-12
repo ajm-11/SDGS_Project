@@ -9,9 +9,16 @@
             "name": "Archive Old Logs",
             "ext": ".log",
             "action": "Archive"
+        },
+        {
+            "name": "Test Rule",
+            "ext": ".txt",
+            "action": "Quarantine"
         }
     ],
-    "monitored_folders": [],
+    "monitored_folders": [
+        "C:/Users/m--sa/OneDrive/سطح المكتب/TestFolder"
+    ],
     "protected_files": [],
     "settings": {
         "auto_scan": true,
